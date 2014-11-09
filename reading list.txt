@@ -1,0 +1,44 @@
+http://eloquentjavascript.net/
+Book on Javascript by Marijn Haverbeke (Javascript)
+
+http://davidwalsh.name/
+David Walsh's Blog (HTML5, CSS, Javascript, Web Development)
+
+http://robdodson.me/
+Rob Dodson's Blog (Web Components, Polymer)
+
+Google Developers Polycasts Playlist
+https://www.youtube.com/playlist?list=PLOU2XLYxmsII5c3Mgw6fNYCzaWrsM3sMN
+
+
+
+
+Server
+
+https://www.digitalocean.com/help/getting-started/setting-up-your-server/
+
+Connect with SSH
+https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh
+
+SSH Keys with Digital Ocean
+https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets
+Windows
+https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users
+
+
+mean one click install
+https://www.digitalocean.com/community/tutorials/how-to-use-the-mean-one-click-install-image
+
+install git on server
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04
+
+Polymer:
+http://robdodson.me/blog/2014/04/10/shadow-dom-css-cheat-sheet/
+
+Later: 
+Use google for MX mail server (have to buy Google Apps $5/month)
+https://support.google.com/a/answer/33915?hl=en
+
+
+MEAN tooling:
+http://programmaticponderings.wordpress.com/2014/03/08/installing-and-configuring-mean-stack-and-yeoman-on-windows/
