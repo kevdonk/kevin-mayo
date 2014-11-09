@@ -12,20 +12,17 @@ template.pages = [
   ];
 
 template.addEventListener('template-bound', function() {
-  console.log("template bound");
   scaffold = document.querySelector('#scaffold');
   ajax = document.querySelector('#ajax');
   pages = document.querySelector('#pages');
 
-  this.route = this.route || DEFAULT_ROUTE;
+  this.route = this.route || DEFAULT_ROUTE;  
 });
 
 template.menuItemSelected = function(e, detail, sender) {
-  console.log("menuitem select");
   if (detail.isSelected) {
     this.async(function() {
       if (!cache[ajax.url]) {
-        console.log("call ajax go");
         ajax.go();
       }
       scaffold.closeDrawer();
@@ -38,7 +35,6 @@ template.ajaxLoad = function(e, detail, sender) {
 };
 
 template.onResponse = function(e, detail, sender) {
-  console.log("onresponse called");
   var article = detail.response.querySelector('article');
   var html = article.innerHTML;
   cache[ajax.url] = html;
