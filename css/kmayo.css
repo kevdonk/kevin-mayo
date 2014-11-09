@@ -1,0 +1,55 @@
+body {
+  font-family: verdana;
+}
+
+core-animated-pages {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+core-animated-pages > div {
+  display: flex;
+  opacity: 0;
+  background-color: #eeeeee;
+}
+
+}
+
+body /deep/ .header-name {
+  font-size: 60pt;
+}
+body /deep/ .initial {
+  color: #ee1111;
+  font-weight: bold;
+}
+
+body /deep/ core-toolbar {
+  background-color: #111111;
+}
+
+body /deep/ core-header-panel {
+  color: #eeeeee;
+}
+
+body /deep/ core-menu {
+
+}
+
+.favorite {
+ color: #ff3682;
+}
+
+core-toolbar {
+  color: #eeeeee;
+  fill: currentcolor;
+}
+
+body /deep/ [drawer] {
+  background-color: #111111;
+  fill: currentcolor;
+}
+
+body /deep/ [main] {
+  color: #000000;
+}
