@@ -11,37 +11,36 @@ core-animated-pages {
 core-animated-pages > div {
   display: flex;
   opacity: 0;
-  background-color: #eeeeee;
+  background-color: #FFFFFF;
 }
-
+body /deep/ .profile {
+  border-radius: 50%;
 }
 
 body /deep/ .header-name {
-  font-size: 60pt;
+  font-size: 2.5rem;
 }
+
 body /deep/ .initial {
   color: #ee1111;
   font-weight: bold;
 }
 
 body /deep/ core-toolbar {
+  font-family: verdana;
   background-color: #111111;
 }
 
 body /deep/ core-header-panel {
-  color: #eeeeee;
+  color: #FFFFFF;
 }
 
 body /deep/ core-menu {
 
 }
 
-.favorite {
- color: #ff3682;
-}
-
 core-toolbar {
-  color: #eeeeee;
+  color: #FFFFFF;
   fill: currentcolor;
 }
 
@@ -52,4 +51,5 @@ body /deep/ [drawer] {
 
 body /deep/ [main] {
   color: #000000;
+  background-color: #FFFFFF;
 }

@@ -9,29 +9,34 @@
         position: relative;
         background-color: #FFFFFF;
         padding: 20px;
-        width: 100%;
+        width: 60%;
+        margin: auto;
+        text-align: center;
         font-size: 1.2rem;
         font-weight: 300;
       }
       .info-header {
         margin-bottom: 10px;
       }
+      .contact-box {
+        padding: 20px;
+      }
       polyfill-next-selector { content: '.info-header h2'; }
       .info-header ::content h2 {
-        margin 0;
         font-size 1.8rem;
         font-weight: 300;
       }
-      polyfill-next-selector { content: '.info-header img'; }
-      .info-header ::content img {
-        width: 70px;
-        border-radius: 50%;
-        margin: 10px;
-      }
+
       </style>
-      <div class="info-header" layout horizontal center>
+      <div class="info-header" layout center center>
         <content select="img"></content>
         <content select="h2"></content>
+        <content select="h3"></content>
+        <content select="h4" center horizontal layout>
+          <content select="a"><content select="img"></content></content>
+          <content select="a"><content select="img"></content></content>
+          <content select="a"><content select="img"></content></content>
+        </h4>
       </div>
       <content></content>
     </template>

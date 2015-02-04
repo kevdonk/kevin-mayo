@@ -18,6 +18,7 @@
     <link rel="import" href="bower_components/paper-item/paper-item.html">
     <link rel="import" href="bower_components/core-animated-pages/core-animated-pages.html">
     <link rel="import" href="bower_components/core-ajax/core-ajax.html">
+    <link rel="import" href="info-card.html">
     <link rel="stylesheet" href="css/kmayo.css" shim-shadowdom>
 
 </head>
@@ -43,8 +44,9 @@
 
       <core-toolbar tool flex>
         <div flex>{{selectedPage.page.name}}</div>
-        <core-icon-button icon="search" class="search" alt="search"></core-icon-button>
-        <core-icon-button icon="favorite" class="favorite" alt="add to favorites"></core-icon-button>
+        <!-- implement search after content perhaps
+        <core-icon-button icon="search" class="search" alt="search"></core-icon-button> 
+        -->
       </core-toolbar>
 
       <div layout horizontal fit>
