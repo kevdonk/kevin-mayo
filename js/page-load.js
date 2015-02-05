@@ -1,5 +1,5 @@
 (function() {
-var DEFAULT_ROUTE = 'one';
+var DEFAULT_ROUTE = 'four';
 var template = document.querySelector('#t');
 var ajax, pages, scaffold;
 var cache = {};
